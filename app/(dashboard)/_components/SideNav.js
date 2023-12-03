@@ -38,7 +38,7 @@ function SideNav({closeSideBar}) {
         </div>
         <div className='flex flex-col float-left w-full'>
         {menuList.map((item,index)=>(
-            <Link href={item.path}>
+            <Link href={item.path} key={index}>
                 <button 
                 key={index}
                 className={`flex gap-2 p-4 px-6

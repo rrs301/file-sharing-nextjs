@@ -15,6 +15,7 @@ function FileItemC({file}) {
           <h2 className='text-[10px] text-gray-400'>Find File details below</h2>
           <Image src='/download-file.gif'
               width={150} height={150}
+              alt='download'
               className='w-[150px] h-[150px]  p-5 ' />
 
           <h2 className='text-gray-500 text-[15px]'>

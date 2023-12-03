@@ -10,7 +10,7 @@ function CompleteCheck() {
     justify-center mt-20
  '>
             <Image src='/verified.gif'
-                width={100} height={100}
+                width={100} height={100} alt='verified'
             />
             <h2 className='text-[20px]'>File 
                 <strong className='text-primary'> Uploaded</strong> Successfully</h2>

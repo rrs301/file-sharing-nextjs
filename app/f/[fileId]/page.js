@@ -30,7 +30,9 @@ function FileView({params}) {
     bg-gray-100 h-screen w-full flex justify-center
     items-center flex-col gap-4'>
         <Link href=''>
-            <Image src='/logo.svg' width={150}
+            <Image src='/logo.svg'
+            alt='logo'
+            width={150}
             height={100}/>
         </Link>
         <FileItemC file={file} /> 

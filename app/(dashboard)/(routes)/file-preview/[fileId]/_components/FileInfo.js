@@ -14,6 +14,7 @@ function FileInfo({file}) {
         <Image src={fileType=='image'?file?.fileUrl:'/file.png'}
         width={200}
         height={200}
+        alt='logo'
         className='h-[200px] rounded-md object-contain '/>
         <div className=''>
             <h2>{file.fileName}</h2>
