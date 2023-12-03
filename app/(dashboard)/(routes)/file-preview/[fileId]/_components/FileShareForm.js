@@ -14,7 +14,7 @@ function FileShareForm({ file,onPasswordSave }) {
       
         setToast({
             status:'Info',
-            msg:'Sending Email feature restricted to Demo App!'
+            msg:'Sending Email...!'
         })
         const data={
             emailToSend:email,
@@ -24,13 +24,13 @@ function FileShareForm({ file,onPasswordSave }) {
             fileType:file.fileType,
             shortUrl:file?.shortUrl
         }
-        // GlobalApi.SendEmail(data).then(resp=>{
-        //     console.log(resp);
-        //     setToast({
-        //         status:'success',
-        //         msg:'Email Sent Successfully!'
-        //     })
-        // })
+        GlobalApi.SendEmail(data).then(resp=>{
+            console.log(resp);
+            setToast({
+                status:'success',
+                msg:'Email Sent Successfully!'
+            })
+        })
     }
 
     const onCopyClick=()=>{
