@@ -1,7 +1,7 @@
 "use client"
 import React, { useEffect, useState } from 'react'
 import UploadForm from './_components/UploadForm'
-import { app } from './../../../../firebaseConfig'
+import  app  from './../../../../firebaseConfig'
 import { getDownloadURL, getStorage, ref, uploadBytesResumable } from "firebase/storage";
 import CompleteCheck from './_components/CompleteCheck';
 import { doc, getFirestore, setDoc } from "firebase/firestore";
