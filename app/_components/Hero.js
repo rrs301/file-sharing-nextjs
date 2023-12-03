@@ -24,7 +24,7 @@ function Hero() {
            bg-primary px-12 py-3 text-sm 
            font-medium text-white shadow
             hover:bg-blue-700 focus:outline-none focus:ring active:bg-red-500 sm:w-auto"
-          href="/get-started"
+          href="/upload"
         >
           Get Started
         </a>
